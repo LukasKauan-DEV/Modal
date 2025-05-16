@@ -1,0 +1,22 @@
+/* Adicionar no seu arquivo CSS */
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.fill-current {
+  fill: currentColor;
+}
+
+/* Animação de entrada suave */
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.position-fixed {
+  animation: slideUp 0.3s ease-out;
+}
